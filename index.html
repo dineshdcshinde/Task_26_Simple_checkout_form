@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="track-order">
+          <p>NIKE</p>
+
+          <div class="status">
+            <div class="num1">
+              <div class="num">1</div>
+              <p>Cart</p>
+              <div class="line"></div>
+            </div>
+
+            <div class="num2">
+              <div class="num">2</div>
+              <p>Checkout</p>
+              <div class="line"></div>
+            </div>
+
+            <div class="num3">
+              <div class="num">3</div>
+              <p>Confirm</p>
+            </div>
+          </div>
+
+          <p class="help">Need help? 1-800-806-6453</p>
+        </div>
+      </header>
+
+      <!-- main -->
+      <main>
+        <div class="checkout">
+          <!-- Delivery Method -->
+          <div class="delivery-method">
+            <h3>Delivery Method</h3>
+
+            <div class="standard">
+              <input
+                type="radio"
+                id="standard"
+                name="delivery-method"
+                checked
+              />
+              <label for="standard">Standard Delivery</label>
+              <p>Free • 3-5 business days</p>
+            </div>
+
+            <div class="express">
+              <input type="radio" id="express" name="express-method" />
+              <label for="express">Express Delivery</label>
+              <p>$12.99 • 1-2 business days</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
