@@ -59,6 +59,114 @@
               <p>$12.99 • 1-2 business days</p>
             </div>
           </div>
+
+          <!-- Shipping Sec -->
+          <div class="shipping-sec">
+            <h3>Shipping Address</h3>
+            <form action="#">
+              <div class="full-name">
+                <label for="fname">First Name</label>
+                <input
+                  type="text"
+                  id="fname"
+                  placeholder="First Name"
+                  required
+                />
+
+                <label for="lName">Last Name</label>
+                <input
+                  type="text"
+                  id="lName"
+                  placeholder="Last Name"
+                  required
+                />
+              </div>
+
+              <label for="email">Email</label>
+              <input type="text" id="email" placeholder="Email" required />
+
+              <label for="phone">Phone Number</label>
+              <input
+                type="number"
+                id="phone"
+                placeholder="Phone Number"
+                required
+              />
+
+              <div class="city-state-info">
+                <label for="street-add">Street Address</label>
+                <input
+                  type="text"
+                  id="street-add"
+                  placeholder="Street Address"
+                  required
+                />
+
+                <label for="city">City</label>
+                <select value="city">
+                  <option value="Banglore">Banglore</option>
+                  <option value="Pune">Pune</option>
+                  <option value="Mumbai">Mumbai</option>
+                  <option value="Bhopal">Bhopal</option>
+                </select>
+
+                <label for="state">State</label>
+                <input type="text" id="state" placeholder="State" required />
+
+                <label for="zip-code">Zip Code</label>
+                <input
+                  type="text"
+                  id="zip-code"
+                  placeholder="Zip Code"
+                  required
+                />
+              </div>
+            </form>
+          </div>
+
+          <!-- Payment Method -->
+          <div class="payment-method">
+            <!-- payment head -->
+            <div class="payment-head">
+              <h3>Payment Method</h3>
+              <div class="pay-logo">
+                <img
+                  src="./assets/photos/Visa_Inc._logo.svg"
+                  alt="Visa Inc logo"
+                />
+
+                <img
+                  src="./assets/photos/Mastercard-logo.svg"
+                  alt="Mastercard logo"
+                />
+
+                <img
+                  src="./assets/photos/American_Express_logo_(2018).svg.webp"
+                  alt="American Express logo"
+                />
+              </div>
+            </div>
+
+            <form action="#">
+              <label for="card-num">Card Number</label>
+              <input type="number" placeholder="1234 5678 3456" id="card-num" />
+
+              <div class="expirary-security">
+                <label for="expirary-date">Expiration Date</label>
+                <input type="text" id="expirary-date" placeholder="MM/YY" />
+
+                <label for="security-code">Security Code</label>
+                <input type="text" id="security-code" placeholder="CVV" />
+              </div>
+
+              <div class="terms">
+                <input type="checkbox" id="check" />
+                <label for="check" class="check">
+                  I agree to the terms and conditions</label
+                >
+              </div>
+            </form>
+          </div>
         </div>
       </main>
     </div>
