@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Checkout Form</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <div class="wrapper">
@@ -167,8 +169,102 @@
               </div>
             </form>
           </div>
+
+          <!-- order summary -->
+          <div class="order-summary">
+            <h3>Order Summary</h3>
+
+            <div class="product">
+              <img
+                src="./assets/photos/nike air mash.jpeg"
+                alt="Nike Air max"
+              />
+              <div class="product-info">
+                <strong>Nike Air Max 2024</strong>
+
+                <p>
+                  Size: US10 <br />
+                  Quantity:1 <br />
+                  <span class="price"> $179.99 </span>
+                </p>
+              </div>
+            </div>
+            <hr />
+
+            <div class="promo-code">
+              <input
+                type="text"
+                name="promoCode"
+                id="promoCode"
+                placeholder="Promo Code"
+              />
+              <button>Apply</button>
+            </div>
+            <hr />
+            <div class="total-amt">
+              <div class="bill-amt">
+                <p>Subtotal</p>
+                <p>$179.99</p>
+              </div>
+
+              <div class="bill-amt">
+                <p>Shipping</p>
+                <p>Free</p>
+              </div>
+
+              <div class="bill-amt">
+                <p>Tax</p>
+                <p>$16.20</p>
+              </div>
+            </div>
+            <hr />
+            <div class="final-amt">
+              <p>Total Amount</p>
+              <p>$196.19</p>
+            </div>
+            <hr />
+            <div class="free-gift">
+              <p>Hey wanna free git?</p>
+              <p>
+                Just enter your email address? <br>
+
+                <span> Try Your luck !!!! </span>
+              </p>
+              <input type="email" placeholder="Enter Your Email Address" />
+
+              <button>Submit</button>
+            </div>
+            <hr />
+            <div class="conditions">
+              <p>
+                By placing your order, you agree to our <br />
+                Terms of Service and Privacy Policy
+              </p>
+            </div>
+          </div>
+
+         
         </div>
       </main>
+
+       <!-- footer -->
+       <footer>
+        <div class="foot-item">
+          <h3>Secure Payments</h3>
+          <p>Your data is protected b 256-bit SSL encryption</p>
+        </div>
+
+        <div class="foot-item">
+          <h3>Free Returns</h3>
+          <p>60-day return policy for any reason</p>
+        </div>
+
+        <div class="foot-item">
+          <h3>24/7 Support</h3>
+          <p>Our team is here to help anytime</p>
+        </div>
+
+       </footer>
     </div>
   </body>
 </html>
