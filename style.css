@@ -618,7 +618,6 @@ form #phone {
   cursor: pointer;
 }
 
-
 /* Footer */
 footer {
   margin-top: 1rem;
@@ -629,11 +628,10 @@ footer {
   justify-content: space-around;
   align-items: stretch;
   gap: 1rem;
-  background-color: 
-  #ffffff;
+  background-color: #ffffff;
 }
 
-footer .foot-item{
+footer .foot-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -643,14 +641,29 @@ footer .foot-item{
   cursor: pointer;
 }
 
-footer .foot-item h3{
-font-size: 1.5rem;
-color: #2a2a2a;
-font-weight: 600;
+footer .foot-item h3 {
+  font-size: 1.5rem;
+  color: #2a2a2a;
+  font-weight: 600;
 }
 
-footer .foot-item p{
+footer .foot-item p {
   color: #616a76;
   font-size: 1.2rem;
   line-height: 1.5rem;
+}
+
+.checkout .delivery-method,
+.shipping-sec,
+.payment-method,
+.order-summary {
+  border: 3px solid transparent;
+  transition: border-color 0.25s ease;
+}
+
+.checkout .delivery-method:hover,
+.shipping-sec:hover,
+.payment-method:hover,
+.order-summary:hover {
+  border-color: black;
 }
